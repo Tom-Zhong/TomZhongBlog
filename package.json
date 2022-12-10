@@ -37,7 +37,7 @@
     "cookieparser": "^0.1.0",
     "cors": "^2.8.5",
     "cross-env": "^6.0.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "highlight.js": "^9.16.2",
     "js-cookie": "^2.2.0",
