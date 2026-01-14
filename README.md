@@ -1,4 +1,4 @@
-# Shiba-Inu
+# Tom Zhong's Site
 
 > Through the Nuxt.js, I build my personal site &#34;Tom Zhong&#39;s Site&#34;.If you have any advice, please feel free to contract me.
 
