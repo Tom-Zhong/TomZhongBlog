@@ -6,10 +6,10 @@ services:
     ports:
       - "3000:3000"
     links:
-      - mongo
-  mongo:
-    container_name: mongo
-    image: mongo
+      - mongodbserver
+  mongodbserver:
+    container_name: mongodbserver
+    image: mongodb/mongodb-community-server
     volumes:
       - ./data:/data/db
     ports:

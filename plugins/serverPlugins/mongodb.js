@@ -4,7 +4,7 @@ import initizeMongoData from './initizeMongoData'
 export default async () => {
   await mongoose.connect(
     // 'mongodb+srv://root:1234@cluster0-mtpng.mongodb.net/zguiyong?retryWrites=true&w=majority'
-    'mongodb://localhost/zguiyong',
+    process.env.NODE_ENV !== 'production' ? 'mongodb://localhost/zguiyong' : 'mongodb://mongodbserver:27017/zguiyong',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
