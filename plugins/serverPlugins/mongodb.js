@@ -12,7 +12,7 @@ export default async () => {
       useCreateIndex: true,
     }
   )
-  mongoose.set('createIndexes', true)
+  // mongoose.set('createIndexes', true)
 
   // 第一次运行时初始化数据
   await initizeMongoData()
