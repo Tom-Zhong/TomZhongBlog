@@ -3,6 +3,9 @@ services:
   app:
     container_name: myblog
     build: .
+    depends_on:
+      mongodbserver:
+        condition: service_healthy
     ports:
       - "3000:3000"
     links:
@@ -11,6 +14,12 @@ services:
     container_name: mongodbserver
     image: mongodb/mongodb-community-server
     volumes:
-      - ./data:/data/db
-    ports:
-      - "27017:27017"
+      - mongo_data:/data/db
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+volumes:
+  mongo_data:
