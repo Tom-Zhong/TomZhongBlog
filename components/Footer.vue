@@ -17,9 +17,9 @@
               <a href="/about">Tom Zhong</a>
               , Inspired by <a href="https://colorlib.com" target="_blank">Colorlib</a>
             </p>
-            <p>
+            <!-- <p>
               <a href="http://beian.miit.gov.cn/" style="color: #fff">京ICP备17028968号</a>
-            </p>
+            </p> -->
           </div>
         </div>
         <!-- <div class="col-lg-5 col-md-6 col-sm-6">
