@@ -1,7 +1,7 @@
 version: "2"
 services:
   app:
-    container_name: myblog:v1.0
+    container_name: myblog:latest
     build: .
     ports:
       - "3000:3000"
