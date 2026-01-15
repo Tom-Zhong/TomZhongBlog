@@ -11,7 +11,7 @@
             </h1>
             <p
               style="margin: 0"
-            >I am Tom Zhong(大贵), I am Frontend developer, Basketball fans, and Ukelele fans.</p>
+            >I am Tom Zhong(大贵), I am Full-Stack Engineer, Basketball fans, and Ukelele fans.</p>
           </div>
         </div>
       </div>
@@ -30,11 +30,11 @@
           </div>
           <div class="col-md-8 .col-12">
             <div class="introduction">
-              <h2 class="mt-10 mb-10">作为一个前端工程师，我不仅仅只学习前端领域的知识，还喜欢在其他未知的技术领域探寻。</h2>
+              <h2 class="mt-10 mb-10">作为一个全栈工程师，不仅仅只学习前后端领域的知识，在其他未知的技术领域也持续探寻。</h2>
               <p
                 class="detail"
                 style="text-indent: 2em;"
-              >人的一生很漫长，我选择了前端工程师作为我的职业，可能会有人说我们就是一个写网页的，但是事实证明，我们能称得上工程师，业务线是不可能简单的，从H5应用，H5游戏，小程序，跨平台应用(electron), Express等等。没有人再敢说我们前端的工作是简单的。这，也是我选择前端的原因，可以说它很简单，简单到你在页面构建的时候就像在搭积木。更可以说很复杂，工程化的思想渗透到了前端的方方面面，组件化，webpack bundle打包，MVVM设计。一句话概括，前端工程师，是有艺术气息和理工气息的工程师。</p>
+              >人的一生很漫长，我选择了全栈工程师作为我的职业，从React到Node.js, 从Java到Spring Boot，从前端到后端，每一行代码，都是代码大脑思索的结果。</p>
               <div class="coding-panel">
                 <span
                   id="typed-npm"
@@ -53,8 +53,8 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content col-lg-7">
             <div class="title text-center">
-              <h1 class="mb-10">前端工程师技能包</h1>
-              <p>嗯，下面就是我会的一点点东西！感觉自己会的挺少的，但是我会更努力的！</p>
+              <h1 class="mb-10">全栈工程师技能包</h1>
+              <p>都会一点点，但不值一点点</p>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default {
   mounted() {
     // 使用typed.js
     new Typed('#typed-carrer', {
-      strings: ['大贵', '前端工程师', '篮球爱好者', '尤克里里爱好者'],
+      strings: ['大贵', '全栈工程师', '篮球爱好者', '尤克里里爱好者'],
       typeSpeed: 50,
       backSpeed: 50,
       cursorChar: '_',
