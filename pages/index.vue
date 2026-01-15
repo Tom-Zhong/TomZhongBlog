@@ -65,7 +65,7 @@
               <a href="#">
                 <h4>前端技能</h4>
               </a>
-              <p>HTML5, CSS3, Javascript, jQuery, ES6, Webpack, Vue, Mini Program, AMP, PWA</p>
+              <p>HTML5, CSS3, Javascript, React.js, Webapck, Vite, 小程序, PWA, Android， 鸿蒙基础开发认证</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -74,7 +74,7 @@
               <a href="#">
                 <h4>后端技能</h4>
               </a>
-              <p>Node, Express, Linux, Python, Git</p>
+              <p>Java, SpringBoot, Node.js, Express, Linux, Python, Git, AWS</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -101,7 +101,7 @@
               <a href="#">
                 <h4>语言技能</h4>
               </a>
-              <p>粤语，英语，汉语，国语</p>
+              <p>粤语，英语，国语</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -110,7 +110,7 @@
               <a href="#">
                 <h4>交往技能</h4>
               </a>
-              <p>流畅阅读英文文档，有良好英文听说读写能力，金牛座的性格稍稍内向，但因为喜欢为人设身处地，比较容易交朋友，同时拥有团队意识，较容易融入团队，同时更好地进行工作的协助。</p>
+              <p>流畅阅读英文文档，有良好英文听说读写能力，拥有团队意识，较容易融入团队，同时更好地进行工作的协助。</p>
             </div>
           </div>
         </div>
